@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/ltp-coursera/src/unit1.py" element2="/ltp-coursera/src/unit1test.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1353266942655"/>&#x0A;&#x0A;</session>

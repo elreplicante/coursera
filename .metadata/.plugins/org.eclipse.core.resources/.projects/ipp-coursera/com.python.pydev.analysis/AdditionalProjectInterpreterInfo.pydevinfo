@@ -1,0 +1,24 @@
+-- VERSION_3
+-- START DISKCACHE
+/Users/repli/Documents/Programacion/coursera/.metadata/.plugins/org.eclipse.core.resources/.projects/ipp-coursera/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+a1_tests|0|/Users/repli/Documents/Programacion/coursera/ipp-coursera/a1_tests.py
+a1|0|/Users/repli/Documents/Programacion/coursera/ipp-coursera/a1.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=a1_tests
+3=Test
+1=a1
+-- END DICTIONARY
+-- START TREE 1
+4
+nam|1|name_to_number!10@
+num|1|number_to_name!10@
+rps|1|rpsls!10@
+tes|1|Test!17@
+-- END TREE
+-- START TREE 2
+1
+tes|2|test_name_to_number!3&18@test_number_to_name!3&18@
+-- END TREE

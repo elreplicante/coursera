@@ -1,0 +1,29 @@
+'''
+Created on 18/11/2012
+
+@author: repli
+'''
+
+
+def f(x):
+    y = x * 3
+    return y - x
+
+def swap_words(two_words):
+    '''(str) -> str
+
+    Precondition: two_words is a string containing two words separated by one space.
+
+    Return a new string where the words are in reverse order, again separated by
+    one space.
+
+    >>> swap_word('Hello World')
+    World Hello
+    '''
+
+    first = two_words[:two_words.find(' ')]
+    second = two_words[two_words.find(' ') + 1:]
+    return second + ' ' + first
+
+
+swap_word('Hello World')

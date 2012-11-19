@@ -1,0 +1,47 @@
+'''
+Created on 18/11/2012
+
+@author: repli
+'''
+
+
+def f(x):
+    y = x * 3
+    return y - x
+
+def swap_words(two_words):
+    '''(str) -> str
+
+    Precondition: two_words is a string containing two words separated by one space.
+
+    Return a new string where the words are in reverse order, again separated by
+    one space.
+
+    >>> swap_word('Hello World')
+    World Hello
+    '''
+
+    first = two_words[:two_words.find(' ')]
+    second = two_words[two_words.find(' ') + 1:]
+    print(second + ' ' + first)
+
+
+swap_words('Hello World')
+
+
+def count_max_letters(s1, s2, letter):
+    '''(str, str, str) -> int
+
+    s1 and s2 are strings, and letter is a string of length 1.  Count how many
+    times letter appears in s1 and in s2, and return the bigger of the two
+    counts.
+
+    >>> count_max_letters('hello', 'world', 'l')
+    2
+    >>> count_max_letters('cat', 'abracadabra', 'a')
+    5
+    '''
+
+    return max(s1.count(letter), s2.count(letter))
+
+count_max_letters('hello', 'world', 'l')
